@@ -1,0 +1,297 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Roboto+Slab&display=swap"
+        rel="stylesheet" />
+    <title>Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Baloo Tamma 2", sans-serif;
+            background: #fff;
+        }
+
+        /* Full width navbar */
+        .navigation {
+            background: #222;
+            border-top: 2px solid #f2a900;
+            padding: 12px 40px !important;
+        }
+
+        /* Logo */
+        .brand-logo {
+            height: 26px;
+            width: auto;
+        }
+
+        /* Links */
+        .navigation-link {
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            color: #fff !important;
+        }
+
+        .navigation-link:hover {
+            color: #f2a900 !important;
+        }
+
+        body {
+            background-image: url("leebitandbokkari2.png");
+            font-family: "Barlow TT", sans-serif;
+        }
+
+        #projects h1 {
+            font-weight: 900;
+        }
+
+        .card {
+            border: 0;
+            border-radius: 3px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, .35);
+        }
+
+        .card-body {
+            background-color: #2b2b2b;
+        }
+
+        .card-title {
+            color: #ffae00;
+            font-weight: 700;
+        }
+
+        .card-img-top {
+            padding: 18px;
+            height: 13rem;
+            object-fit: contain;
+        }
+
+        .card-text {
+            color: #b5bac0;
+            font-size: .85rem;
+        }
+
+        .btn-warning {
+            font-weight: 700;
+            font-size: .8rem;
+            border-radius: 3px;
+        }
+
+        .h3 {
+            border-radius: 6px;
+        }
+
+        .h1 {
+            font-family: "Roboto Slab", serif;
+        }
+
+        .navbar-bg {
+            background: rgba(0, 0, 0, 0.35);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            padding: 15px 30px;
+            background-image: url("leebitandbokkari2.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .about {
+            position: relative;
+            padding-bottom: 180px !important;
+        }
+
+        .about::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 180px;
+
+            background: linear-gradient(to bottom,
+                    rgba(0, 0, 0, 0),
+                    #a08f7d);
+
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid navigation navbar-bg pt-3">
+        <div class="row">
+            <div class="col-6 d-flex justify-content-start align-items-center">
+                <i class="fas fa-code fa-2x text-warning pb-3"></i>
+                <h5 class="d-inline pl-2 text-white">Sunshine Bakery & Restraunt</h5>
+            </div>
+            <div class="col-6 pt-3">
+                <div class="row text-center p-0 d-flex justify-content-end align-items-center">
+                    <div class="col">
+                        <a href="#about" class="text-white navigation-link">About</a>
+                    </div>
+                    <div class="col">
+                        <a href="#Foods" class="text-white navigation-link">Foods</a>
+                    </div>
+                    <div class="col">
+                        <a href="#social-media" class="text-white navigation-link">Social Media</a>
+                    </div>
+                    <div class="col">
+                        <a href="#contacts" class="text-white navigation-link">Contacts</a>
+                    </div>
+                    <div class="col">
+                        <a href="#copyright" class="text-white navigation-link">Copyright</a>
+                    </div>
+                </div>
+            </div>
+            <div id="about" class="container about p-5">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="FELIXISCOOKIN.jpg" alt="About Chef Felix" class="img-fluid" />
+                    </div>
+                    <div class="col-6 pl-5 pt-5 pb-5 text-white">
+                        <h3 class="text-warning">About Chef Yongbok</h3>
+                        <h1 class="m-heading">A little bit about him</h1>
+                        <p>
+                            Chef Lee Yongbok is a chef or a baker who mostly likes to<b class="text-warning"> Bake</b>
+                            who
+                            is in
+                            a boy group Stray Kids.
+                            He cares about his members, staff and also his fans. He works under<b class="text-warning">
+                                Chef
+                                Lee
+                                Minho</b>.</p>
+                    </div>
+                    <div class="col-6">
+                        <img src="Leeminho.jpg" alt="About Chef Lee Minho" class="img-fluid" />
+                    </div>
+                    <div class="col-6 pl-5 pt-5 pb-5 text-white">
+                        <h3 class="text-warning">About Chef Lee Minho</h3>
+                        <h1 class="m-heading">A little bit about him</h1>
+                        <p>
+                            Chef Lee Minho is a chef or a baker who mostly likes to<b class="text-warning"> Cook</b> who
+                            is
+                            the
+                            the<b class="text-warning"> second oldest</b> in stray kids. His staff is only<b
+                                class="text-warning"> Chef Lee Yongbok</b>.
+                        </p>
+                    </div>
+                    <div id="Foods" class="card" style="width: 18rem;">
+
+                        <img src="Crispyfries.jpg" class="card-img-top" alt="French-Fries" />
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">French Fries</h5>
+
+                            <p class="card-text">Cooked to perfection, with right amount of saltiness and crispiness.
+                            </p>
+
+                            <a href="#" class="btn btn-primary">Order</a>
+
+                        </div>
+
+                    </div>
+                    <div class="card" style="width: 18rem;">
+
+                        <img src="Choco.jpg" class="card-img-top" alt="Chocolate-Ice-cream" />
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">Chocolate Ice cream</h5>
+
+                            <p class="card-text">Creamy and delicious, made with the finest ingredients- Hey guys,isn't
+                                this
+                                melting?</p>
+
+                            <a href="#" class="btn btn-primary">Order</a>
+
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+
+                        <img src="chocobutoncone.jpg" class="card-img-top" alt="cone" />
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">Chocolate Ice cream but on a CONE</h5>
+
+                            <p class="card-text">This has the balance of sweetness and crispiness of the cone and-HEY
+                                THE
+                                CONE
+                                IS SOGGY NOW AHHHHHHHHHH.</p>
+
+                            <a href="#" class="btn btn-primary">Order</a>
+
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+
+                        <img src="Leeknowairfryer.jpg" class="card-img-top" alt="cone" />
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">Air fryer</h5>
+
+                            <p class="card-text">This is just a air fryer , used by Chef Lee Minho in which he cooks
+                                Hyunjin
+                                for
+                                20 mins at 180°C .
+                            <h6>It's a inside joke hehe don't take it seriously!</h6>
+                            </p>
+
+                            <a href="#" class="btn btn-primary">Order</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="social-media" class="container-fluid">
+                    <div class="container text-white py-5">
+                        <h4 class="text-warning">Social Media</h4>
+                        <h5 class="m-heading">Follow us!</h5>
+                        <div class="row pt-5">
+                            <div class="col-3 media_link btn">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h4 class="m-0 pt-2 text-white">on Instagram by @sunshine_BnR</h4>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <i class="fab fa-instagram"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="contacts" class="container-fluid">
+                    <div class="container text-white py-5">
+                        <h4 class="text-warning">Contacts</h4>
+                        <h5 class="m-heading">Contact us!</h5>
+                        <div class="row pt-5">
+                            <div class="col-3 media_link btn">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h4 class="m-0 pt-2 text-white">on Email by @sunshine_BnR</h4>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <i class="fab fa-email"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer>
+                    <div id="copyright" class="container text-muted text-center py-3 mt-5">
+                        <h5 class="m-0">Copyright © 2021 | <a href="#copyright"
+                                class="text-warning text-decoration-none">
+                                All Rights Reserved By Sunshine Bakery and Restraunt</a></h5>
+                    </div>
+                </footer>
+</body>
+
+</html>
